@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A searchable catalog of Polars plugins and extensions, synced daily from awesome-polars.">
+<title>Polars Plugins – Community plugin catalog</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <span class="badge">Synced daily from <a href="https://github.com/ddotta/awesome-polars">awesome-polars</a></span>
+  <h1>Polars <span>Plugins</span></h1>
+  <p>Discover community plugins and extensions that supercharge Polars.</p>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search plugins, authors, topics…" aria-label="Search">
+    <select id="sort" aria-label="Sort">
+      <option value="stars">Most starred</option>
+      <option value="name">Name (A–Z)</option>
+    </select>
+  </div>
+  <div id="chips" class="chips"></div>
+  <div id="count" class="count"></div>
+</header>
+<main id="grid" class="grid"></main>
+<footer>Data from <a href="https://github.com/ddotta/awesome-polars">ddotta/awesome-polars</a> (CC0) · Last updated <span id="updated">–</span></footer>
+<script src="app.js"></script>
+</body>
+</html>
